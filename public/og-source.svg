@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#090B0E"/>
+  <path d="M0 46H1200M0 584H1200" stroke="#34383D"/>
+  <path d="M70 0V630M1130 0V630" stroke="#34383D"/>
+  <g opacity=".18" stroke="#F7F4EA"><path d="M620 95V535M675 95V535M730 95V535M785 95V535M840 95V535M895 95V535M950 95V535M1005 95V535M1060 95V535"/><path d="M620 95H1060M620 150H1060M620 205H1060M620 260H1060M620 315H1060M620 370H1060M620 425H1060M620 480H1060M620 535H1060"/></g>
+  <text x="70" y="31" fill="#C7FF4A" font-family="monospace" font-size="11" font-weight="700">DG / AI SYSTEMS ENGINEER</text>
+  <text x="1130" y="31" fill="#FF5A36" font-family="monospace" font-size="11" text-anchor="end">PUNE — INDIA / 2026</text>
+  <text x="70" y="151" fill="#666A6E" font-family="Arial, sans-serif" font-size="30" font-weight="800">I BUILD AI SYSTEMS</text>
+  <text x="70" y="240" fill="#F7F4EA" font-family="Arial, sans-serif" font-size="82" font-weight="900">THAT KNOW</text>
+  <text x="70" y="323" fill="#FF5A36" font-family="Arial, sans-serif" font-size="82" font-weight="900">WHERE TO RUN,</text>
+  <text x="70" y="406" fill="#F7F4EA" font-family="Arial, sans-serif" font-size="82" font-weight="900">WHAT TO DO.</text>
+  <rect x="620" y="206" width="112" height="54" fill="#E9E6DC"/><text x="676" y="238" fill="#090B0E" font-family="monospace" font-size="12" text-anchor="middle">REQUEST</text>
+  <rect x="784" y="184" width="112" height="98" stroke="#FF5A36" stroke-width="2" transform="rotate(45 840 233)"/><text x="840" y="228" fill="#F7F4EA" font-family="monospace" font-size="11" text-anchor="middle">PRIVACY</text><text x="840" y="244" fill="#F7F4EA" font-family="monospace" font-size="11" text-anchor="middle">GATE</text>
+  <rect x="951" y="160" width="109" height="48" fill="#C7FF4A"/><text x="1006" y="188" fill="#090B0E" font-family="monospace" font-size="11" text-anchor="middle">LOCAL</text>
+  <rect x="951" y="258" width="109" height="48" fill="#6D7CFF"/><text x="1006" y="286" fill="#090B0E" font-family="monospace" font-size="11" text-anchor="middle">CLOUD</text>
+  <path d="M732 233H773M907 221L951 184M907 246L951 282" stroke="#F7F4EA"/>
+  <text x="620" y="450" fill="#666A6E" font-family="monospace" font-size="11">THE MODEL IS A COMPONENT.</text>
+  <text x="620" y="493" fill="#F7F4EA" font-family="Arial, sans-serif" font-size="39" font-weight="900">THE PRODUCT</text>
+  <text x="620" y="533" fill="#F7F4EA" font-family="Arial, sans-serif" font-size="39" font-weight="900">IS THE SYSTEM.</text>
+  <text x="70" y="610" fill="#777A7D" font-family="monospace" font-size="10">LLM ROUTING / AGENTS / EVALS / ENTERPRISE INTEGRATION</text>
+  <rect x="1102" y="597" width="14" height="14" fill="#FF5A36"/>
+</svg>
