@@ -2,7 +2,12 @@ import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
-const basePath = isGitHubPages && repositoryName ? `/${repositoryName}` : "";
+const customDomain = process.env.GITHUB_PAGES_CUSTOM_DOMAIN?.trim();
+
+const basePath =
+  isGitHubPages && repositoryName && !customDomain
+    ? `/${repositoryName}`
+    : "";
 
 const nextConfig: NextConfig = {
   output: isGitHubPages ? "export" : undefined,
@@ -14,6 +19,7 @@ const nextConfig: NextConfig = {
   },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_RESUME_UPLOAD_ENABLED: isGitHubPages ? "false" : "true",
   },
 };
 
