@@ -128,7 +128,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .resumePdfHero { display: grid; grid-template-columns: 1fr auto; gap: 60px; align-items: end; }
 .resumePdfHero > div > p:last-child { max-width: 700px; margin: 30px 0 0; color: var(--muted); font-size: 18px; line-height: 1.7; }
 .resumePdfHero .primaryButton { margin-bottom: 5px; }
-.resumeViewerSection { padding: 70px 80px 0; }
+.resumeViewerSection { padding: 70px 80px 80px; }
 .resumeViewerTopline { min-height: 58px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; gap: 30px; color: var(--paper); background: var(--ink); }
 .resumeViewerTopline > div { display: flex; align-items: center; gap: 10px; }.resumeViewerTopline p { margin: 0; font-size: 12px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }.resumeViewerTopline a { color: #70babb; font-size: 12px; font-weight: 650; }
 .resumePdfFrame { width: 100%; height: min(1120px, 82vh); display: block; border: 1px solid var(--line); border-top: 0; background: #d7d4d0; }
