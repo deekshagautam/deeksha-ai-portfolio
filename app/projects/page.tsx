@@ -6,9 +6,9 @@ import { assetPath } from "../siteConfig";
 
 export const metadata: Metadata = {
   title: "Projects — Deeksha Gautam",
-  description: "Applied AI, enterprise automation, and analytics projects by Deeksha Gautam.",
-  openGraph: { title: "Projects — Deeksha Gautam", description: "Applied AI systems, enterprise automation, and statistical learning projects.", images: [] },
-  twitter: { title: "Projects — Deeksha Gautam", description: "Applied AI systems, enterprise automation, and statistical learning projects.", images: [] },
+  description: "LLM orchestration, model evaluation, generative applications, and statistical learning projects by Deeksha Gautam.",
+  openGraph: { title: "Projects — Deeksha Gautam", description: "Production-minded AI systems documented through architecture, testing, benchmarks, and measured results.", images: [] },
+  twitter: { title: "Projects — Deeksha Gautam", description: "Production-minded AI systems documented through architecture, testing, benchmarks, and measured results.", images: [] },
 };
 
 export default function ProjectsPage() {
@@ -16,9 +16,9 @@ export default function ProjectsPage() {
     <main>
       <SiteHeader active="projects" />
       <section className="simpleHero pageWidth">
-        <p className="eyebrow">Selected work / 2026</p>
-        <h1>Projects built around<br /><span>real engineering constraints.</span></h1>
-        <p>AI systems, enterprise automation, and applied analytics—presented with the problem, the decisions, and the evidence.</p>
+        <p className="eyebrow">Four technical case studies</p>
+        <h1>AI systems.<br /><span>Measured, not imagined.</span></h1>
+        <p>LLM orchestration, model evaluation, generative applications, and statistical learning—documented through architecture, automated tests, benchmarks, and measured results.</p>
       </section>
       <section className="projectArchive pageWidth">
         {projects.map((project) => (
@@ -28,7 +28,13 @@ export default function ProjectsPage() {
               <div><h2>{project.title}</h2><p>{project.summary}</p></div>
               {project.repo && <a className="textLink" href={project.repo} target="_blank" rel="noreferrer">View repository ↗</a>}
             </div>
-            <div className="caseDetails"><div><span>Problem</span><p>{project.problem}</p></div><div><span>What I built</span><p>{project.build}</p></div><div><span>Outcome</span><p>{project.result}</p></div></div>
+            <div className="systemPipeline" aria-label={`${project.title} technical pipeline`}>
+              {project.pipeline.map((step, index) => <div key={step}><span>{String(index + 1).padStart(2, "0")}</span><strong>{step}</strong></div>)}
+            </div>
+            <div className="evidenceStrip">
+              {project.evidence.map((item) => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}
+            </div>
+            <div className="caseDetails"><div><span>Problem</span><p>{project.problem}</p></div><div><span>Technical build</span><p>{project.build}</p></div><div><span>Evidence</span><p>{project.result}</p></div></div>
             <div className="tagList">{project.stack.map((item) => <span key={item}>{item}</span>)}</div>
           </article>
         ))}

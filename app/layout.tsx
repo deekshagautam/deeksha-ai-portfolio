@@ -5,7 +5,7 @@ import { assetPath, siteUrl } from "./siteConfig";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Deeksha Gautam — AI Engineer Portfolio",
-  description: "Deeksha Gautam creates reliable AI agents with privacy safeguards, evaluation, fallback handling, and production engineering.",
+  description: "Deeksha Gautam is a software engineer building production-minded LLM systems with guardrails, evaluation, backend integration, and enterprise delivery.",
   openGraph: {
     title: "Deeksha Gautam — AI Engineer Portfolio",
     description: "I create AI agents that solve real-world problems.",

@@ -5,6 +5,7 @@ export function assetPath(path: string): string {
   return `${basePath}${normalizedPath}`;
 }
 
+export const resumePdfPath = assetPath("/Deeksha_Gautam_AI_Resume.pdf");
+
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://deeksha-ai-portfolio.nimble-vine-9744.chatgpt.site";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://deekshagautam.com";

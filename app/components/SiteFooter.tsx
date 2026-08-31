@@ -8,6 +8,7 @@ export default function SiteFooter() {
         <div className="footerLinks">
           <Link href="/projects">Projects</Link>
           <a href="https://github.com/deekshagautam" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://medium.com/@gautamdeeksha7098" target="_blank" rel="noreferrer">Writings ↗</a>
           <a href="mailto:gautamdeeksha7098@gmail.com">Email ↗</a>
         </div>
       </div>
