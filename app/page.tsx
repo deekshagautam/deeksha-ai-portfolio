@@ -59,14 +59,38 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="currentRoleBand pageWidth" aria-labelledby="current-role-heading">
-        <div>
-          <p>Current role</p>
-          <span>Sep 2026 — Present</span>
+      <section className="experienceSection pageWidth" aria-labelledby="experience-heading">
+        <div className="experienceHeading">
+          <p>Experience</p>
+          <h2 id="experience-heading">Where I&apos;m building now.</h2>
         </div>
-        <div>
-          <h2 id="current-role-heading">Technical AI Advisor <span>· CareAmy</span></h2>
-          <p>Architecting CareAmy&apos;s migration from externally hosted LLM APIs to a fully in-house, privacy-first patient-support chatbot. Building a production-grade RAG pipeline for grounded patient queries across document ingestion, embeddings, hybrid retrieval, context orchestration, response guardrails, and evaluation. Work in progress.</p>
+        <div className="experienceList">
+          <article className="experienceRow">
+            <div className="experienceMeta">
+              <p>Primary role</p>
+              <span>2022 — Present</span>
+            </div>
+            <div className="experienceBody">
+              <h3>Technology Analyst <span>· Citi</span></h3>
+              <p>Building and operating enterprise platforms across AI automation, backend services, event-driven systems, and production delivery.</p>
+              <ul>
+                <li>Built a three-level NAM fund-discount approval workflow integrated with Salesforce, reducing turnaround time by 78%.</li>
+                <li>Created an AI agent for production change management and documentation, reducing human intervention by 75%.</li>
+                <li>Developed a Kafka-powered investment platform that contributed to 47% client growth and 30% higher activation.</li>
+                <li>Migrated and deployed 35 Spring Boot services across APAC, NAM, and EMEA with no production issues; automated workflows reduced manual effort by 65%.</li>
+              </ul>
+            </div>
+          </article>
+          <article className="experienceRow sideProjectRow">
+            <div className="experienceMeta">
+              <p>Advisory side project</p>
+              <span>Sep 2026 — Present</span>
+            </div>
+            <div className="experienceBody">
+              <h3>Technical AI Advisor <span>· CareAmy</span></h3>
+              <p>Designing CareAmy&apos;s migration from externally hosted LLM APIs to a fully in-house, privacy-first patient-support chatbot. Building a production-grade RAG pipeline spanning document ingestion, embeddings, hybrid retrieval, context orchestration, controlled responses, guardrails, and evaluation. Work in progress.</p>
+            </div>
+          </article>
         </div>
       </section>
       <section className="homeBlock pageWidth">
