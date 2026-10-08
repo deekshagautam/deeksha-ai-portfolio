@@ -59,6 +59,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="currentRoleBand pageWidth" aria-labelledby="current-role-heading">
+        <div>
+          <p>Current role</p>
+          <span>Sep 2026 — Present</span>
+        </div>
+        <div>
+          <h2 id="current-role-heading">Technical AI Advisor <span>· CareAmy</span></h2>
+          <p>Architecting CareAmy&apos;s migration from externally hosted LLM APIs to a fully in-house, privacy-first patient-support chatbot. Building a production-grade RAG pipeline for grounded patient queries across document ingestion, embeddings, hybrid retrieval, context orchestration, response guardrails, and evaluation. Work in progress.</p>
+        </div>
+      </section>
       <section className="homeBlock pageWidth">
         <h2>Current focus</h2>
         <div className="focusGrid">
@@ -68,7 +78,7 @@ export default function Home() {
       <section className="homeBlock featuredBlock pageWidth">
         <div className="sectionHeading"><h2>Featured work</h2><Link href="/projects">All projects <span>→</span></Link></div>
         <div className="projectRows">
-          {projects.slice(0, 2).map((project) => (
+          {projects.slice(0, 3).map((project) => (
             <Link className="projectRow" href={`/projects#${project.id}`} key={project.id}>
               <span className="projectNumber">{project.number}</span><strong>{project.title}</strong>
               <p>{project.id === "hybrid-ai-gateway" ? "Privacy-aware model routing with 106 automated tests." : project.summary}</p><span className="rowArrow">→</span>

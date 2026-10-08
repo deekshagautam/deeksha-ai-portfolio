@@ -5,12 +5,14 @@ The source code for [deekshagautam.com](https://deekshagautam.com), built as a s
 ## Included
 
 - Home page with a concise applied-AI profile
-- Four separate projects:
+- Current Technical AI Advisor role at CareAmy
+- Five separate projects:
   - Hybrid AI Gateway
   - Local vs Cloud AI Lab
+  - Local RAG Evaluation Lab
   - Pet Thought Generator
   - Georgia Tech Youth Mental Health Analysis
-- GitHub page with links to three public repositories
+- GitHub page with links to four public repositories
 - Writings section with Deeksha's published Medium articles
 - Embedded and downloadable résumé PDF
 - Responsive cream, charcoal, and muted-teal design

@@ -16,7 +16,7 @@ export default function ProjectsPage() {
     <main>
       <SiteHeader active="projects" />
       <section className="simpleHero pageWidth">
-        <p className="eyebrow">Four technical case studies</p>
+        <p className="eyebrow">Five technical case studies</p>
         <h1>AI systems.<br /><span>Measured, not imagined.</span></h1>
         <p>LLM orchestration, model evaluation, generative applications, and statistical learning—documented through architecture, automated tests, benchmarks, and measured results.</p>
       </section>

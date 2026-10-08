@@ -17,6 +17,12 @@ const repositories = [
     stats: [["34", "Model requests"], ["3", "Experiment groups"], ["Complete", "V1 benchmark"]],
   },
   {
+    name: "Local-rag-evaluation-lab",
+    description: "A privacy-first local RAG system with hybrid vector and BM25 retrieval, RRF fusion, grounded Ollama generation, retrieval diagnostics, automated evaluation, regression gates, and CI.",
+    href: "https://github.com/deekshagautam/Local-rag-evaluation-lab",
+    stats: [["1.000", "Recall@4"], ["0.893", "Hybrid MRR"], ["17", "Evaluation cases"]],
+  },
+  {
     name: "Pet-thought-generator",
     description: "A Streamlit GenAI application that converts structured pet context and a configurable chaos score into a dynamically constructed Gemini prompt and generated response.",
     href: "https://github.com/deekshagautam/Pet-thought-generator",
@@ -40,7 +46,7 @@ export default function GithubPage() {
         <div className="githubProfileLine"><div className="initials">DG</div><div><strong>@deekshagautam</strong><p>LLM systems · Backend engineering · Applied AI</p></div><a className="primaryButton" href="https://github.com/deekshagautam" target="_blank" rel="noreferrer">Open profile <span>↗</span></a></div>
       </section>
       <section className="repositoryList pageWidth">
-        <div className="sectionHeading"><h2>Public repositories</h2><span>03 projects</span></div>
+        <div className="sectionHeading"><h2>Public repositories</h2><span>04 projects</span></div>
         {repositories.map((repository) => (
           <article className="repositoryRow" key={repository.href}>
             <div className="repoIntro"><p><span className="statusDot" /> Public repository</p><h2>{repository.name}</h2><p>{repository.description}</p><a className="textLink" href={repository.href} target="_blank" rel="noreferrer">View repository ↗</a></div>
